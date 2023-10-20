@@ -1,0 +1,74 @@
+
+@import "../../global.scss";
+
+.overview-container {
+
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -10;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:center;
+    // gap: 1em;
+
+    @include mobile {
+        flex-direction: column;
+        justify-content: center;
+      }
+
+
+    .cards-container {
+        top: 0;
+        padding: 1em;
+
+        .cards {
+            aspect-ratio: 1/1;
+            border: none;
+
+            img {
+                width: 238px;
+                height: 140px;
+                position: relative;
+            }
+
+            .card-image {
+                // display: flex;
+                // justify-content: flex-end;
+                position: relative;
+               
+                
+                .heart-favorite {
+                   
+                    justify-content: flex-end;
+                    position: absolute;
+                    display: flex;
+                    // right: 0;
+                    top: 0;
+                    right: 0;
+                    left: 210px;
+                    padding: 2em;
+                    padding-left: 1em;
+                    color: red;
+ 
+                    
+                  
+                   
+                }
+                
+            }
+
+         
+        }
+
+
+    
+    }
+
+
+
+
+}
+
+

@@ -1,0 +1,90 @@
+// //CSS RESET
+// html, body, div, span, applet, object, iframe,
+// h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+// a, abbr, acronym, address, big, cite, code,
+// del, dfn, em, img, ins, kbd, q, s, samp,
+// small, strike, strong, sub, sup, tt, var,
+// b, u, i, center,
+// dl, dt, dd, ol, ul, li,
+// fieldset, form, label, legend,
+// table, caption, tbody, tfoot, thead, tr, th, td,
+// article, aside, canvas, details, embed, 
+// figure, figcaption, footer, header, hgroup, 
+// menu, nav, output, ruby, section, summary,
+// time, mark, audio, video {
+// 	margin: 0;
+// 	padding: 0;
+// 	border: 0;
+// 	font-size: 100%;
+// 	font: inherit;
+// 	vertical-align: baseline;
+// }
+// /* HTML5 display-role reset for older browsers */
+// article, aside, details, figcaption, figure, 
+// footer, header, hgroup, menu, nav, section {
+// 	display: block;
+// }
+// body {
+// 	line-height: 1;
+// }
+// ol, ul {
+// 	list-style: none;
+// }
+// blockquote, q {
+// 	quotes: none;
+// }
+// blockquote:before, blockquote:after,
+// q:before, q:after {
+// 	content: '';
+// 	content: none;
+// }
+// table {
+// 	border-collapse: collapse;
+// 	border-spacing: 0;
+// }
+
+
+
+
+/* Split the screen in half */
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    // z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    // padding-top: 20px;
+  }
+  
+  /* Control the left side */
+  .left {
+    left: 0;
+    z-index: -1;
+
+  }
+  
+  /* Control the right side */
+  .right {
+    right: 0;
+    // top: 65px;
+    height: 100vh;
+    top: 65px;
+   
+  }
+  
+  /* If you want the content centered horizontally and vertically */
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+
+  /* Style the image inside the centered container, if needed */
+//   .centered img {
+//     width: 150px;
+//     border-radius: 50%;
+//   }
